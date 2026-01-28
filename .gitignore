@@ -6,6 +6,7 @@
 
 # Ignore IDE and editor files
 /.idea/
+.idea/
 *.iml
 remote_host/.clion.source.upload.marker
 
