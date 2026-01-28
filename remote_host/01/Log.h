@@ -7,9 +7,9 @@
 
 
 
-class Util {
-    void errif(bool, const char*);
-};
+
+    void err(bool, const char*);
+
 
 
 
