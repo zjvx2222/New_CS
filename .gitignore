@@ -1,0 +1,26 @@
+# Ignore CMake build directories and artifacts
+/Code/cmake-build-debug/
+/remote_host/cmake-build-debug/
+/remote_host/cmake-build-remote/
+/c++_tutorial/
+
+# Ignore IDE and editor files
+/.idea/
+.idea/
+*.iml
+remote_host/.clion.source.upload.marker
+
+# Ignore executables and build logs
+*.exe
+*.log
+*.ninja_log
+*.ninja_deps
+
+# CMake files
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Testing temporary folders
+**/Testing/Temporary/

@@ -4,13 +4,20 @@
 
 #ifndef INETADDRESS_H
 #define INETADDRESS_H
+#pragma once
+#include <arpa/inet.h>
 
-namespace InetAddress {
+
 
 class InetAddress {
-
+public:
+    struct sockaddr_in addr;
+    socklen_t addr_len;
+    InetAddress();
+    InetAddress(const char* ip,uint16_t port);
+    ~InetAddress();
 };
 
-} // InetAddress
+
 
 #endif //INETADDRESS_H
